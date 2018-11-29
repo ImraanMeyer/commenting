@@ -1,0 +1,87 @@
+/* Base styles */
+
+/* selector chosen (body)*/
+body {
+    /* sets background color to 'mistyrose' */
+    background-color: mistyrose;
+     /* sets your font(s) for the website */
+    font-family: 'Roboto', sans-serif;
+    /* sets the margins for body to 0 */
+    margin: 0;
+}
+
+/* selector being the header */
+header {
+    /* sets the background color for the header */
+    background-color: darkseagreen;
+    /* sets margin for the header */
+    margin: 3.125em 0;
+    /* sets the width to 100% of the header */
+    width: 100%;
+    /* centralises everything in the header */
+    margin: 0 auto;
+}
+
+/* selector being list inside the nav bar */
+nav ul {
+    /* sets margin for nav to 0 */
+    margin: 0;
+    /* padding for nav top & bottom set to 30px, left & right set to 0 */
+    padding: 30px 0;
+    /* takes the bullets away from the list */
+    list-style-type: none;
+    /* moves list to the right side of the header */
+    float: right;
+}
+
+/* selector being the img */
+img {
+    /* adds width of image to 80px */
+    width: 80px;
+    /* sets height to auto adjust depending on browser */
+    height: auto;
+    /* sets padding to image all around */
+    padding: 10px;
+}
+
+/* selecting the lists */
+li {
+    /* display text inline  */
+    display: inline;
+    /* sets text color of list to white */
+    color: white;
+    /* changes padding for the lists */
+    padding: 1.250em;
+}
+
+/* selectpr being anchors inside the nav */
+nav a {
+    /* aligns anchor tags to the center */
+    text-align: right;
+    /* aligns the top margin */
+    margin-top: 3.125em;
+    /* removes the underlining of the hyperlinks */
+    text-decoration: none;
+    /* sets the text color of the anchor to white */
+    color: white;
+    /* sets font size */
+    font-size: 1.563em;
+    /* sets padding to 10px */
+    padding: 10px;
+    /* changes all text to uppercase */
+    text-transform: uppercase;
+}
+/* selector being anchor tag enabling hover function */
+a:hover {
+    /* text color changes when hovering over anchor links */
+    color: lightslategray;
+}
+
+/* selector anchor eneabling active function */
+a:active {
+    /* changes color when clicked on */
+    color: pink;
+}
+
+
+
